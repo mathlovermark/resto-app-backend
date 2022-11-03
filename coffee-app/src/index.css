@@ -1,0 +1,271 @@
+body {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+hr {
+  margin: 50px auto 50px auto;
+  border-style: dotted none none none;
+  width: 450px;
+  border-width: 25px;
+  color: teal;
+}
+
+nav {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px 1.5px black;
+}
+
+.cover-photo {
+  width: 90%;
+  height: 250px;
+  position: relative;
+  margin: 0px auto 50px auto;
+  padding: auto;
+  text-align: center;
+}
+
+.slider-image {
+  border-radius: 10px;
+  margin: auto;
+  height: 250px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slides {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slides-active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.coffee-brand {
+  width: 96.3%;
+  text-align: center;
+  height: 60px;
+  margin: 50px auto 225px auto;
+  font-family: 'Allura', cursive;
+  padding: 0px auto 10px auto;
+  font-size: 10rem;
+  color: teal;
+  text-shadow: 1px 1px black;
+}
+
+.add-button {
+  margin-bottom: 10px;
+  background-color: teal;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid black;
+}
+
+.add-button:hover {
+  box-shadow: 1px 1px 3px 1.5px black;
+}
+
+.forms-container {
+  display: grid;
+  width: 10%;
+  grid-template-columns: auto;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.forms-container label {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.forms-container input {
+  border-radius: 10px;
+}
+
+.coffee-list-button-add {
+  display: inline-block;
+  margin: 5px;
+  font-size: 2rem;
+}
+
+.coffee-list-button-add:hover {
+  cursor: pointer;
+  scale: 150%;
+}
+
+.coffee-img {
+  margin: auto;
+  padding: auto;
+  width: 140px;
+  height: 140px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.coffee-name {
+  font-size: 1rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.coffee-list-button {
+  display: inline-block;
+  margin: 5px;
+}
+
+.coffee-list-buy {
+  color: green;
+}
+
+.coffee-list-edit {
+  color: gray;
+}
+
+.coffee-list-delete {
+  color: maroon;
+}
+
+.coffee-list-button:hover {
+  cursor: pointer;
+  scale: 150%;
+}
+
+.coffee-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+  gap: 15px;
+}
+
+.coffee-item {
+  margin: auto;
+  padding: 15px 25px 15px 25px;
+  gap: 5px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.coffee-item:hover {
+  scale: 105%;
+  box-shadow: 1px 1px 5px 2.5px teal;
+}
+
+.coffee-description {
+  width: 100%;
+}
+
+.coffee-item:hover {
+  scale: 105%;
+  box-shadow: 1px 1px 5px 2.5px teal;
+}
+
+.coffee-description {
+  width: 100%;
+}
+
+/* Coffee Cart */
+.cart-description {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.cart-description-header {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  color: teal;
+  text-shadow: 1px 1px black;
+}
+.coffee-cart-img {
+  margin: auto;
+  padding: auto;
+  width: 140px;
+  height: 140px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.coffee-cart-name {
+  font-size: 1rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.coffee-cart-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  gap: 15px;
+  text-align: center;
+}
+
+.coffee-cart-container-2 {
+  text-align: left;
+}
+
+.coffee-cart-item {
+  margin: auto;
+  padding: 5px 25px 0px 25px;
+  gap: 5px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  text-align: center;
+}

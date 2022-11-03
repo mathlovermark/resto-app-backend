@@ -1,0 +1,107 @@
+[
+  {
+    "id": 2,
+    "name": "Mocha Coffee",
+    "categories": "Matters Hot Coffees",
+    "price": "60",
+    "image": "https://4.imimg.com/data4/IM/WQ/MY-764091/mocha-coffee-premixes-500x500.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Latte Coffee",
+    "categories": "Matters Hot Coffees",
+    "price": "60",
+    "image": "https://i.pinimg.com/564x/7b/7f/fc/7b7ffca8bcf3072d3b94731ad511828c.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Caramel Machiato",
+    "categories": "Matters Hot Coffees",
+    "price": "60",
+    "image": "https://www.youscreamshop.com/webadmin/uploads/caramel-macchiato-(1).jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cappuccino",
+    "categories": "Matters Hot Coffees",
+    "price": 75,
+    "image": "https://i.pinimg.com/564x/6c/1a/88/6c1a88c8b2d5e59f24224bffbfa7aea8.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Matters Frapp",
+    "categories": "Matters Frappuccino",
+    "price": 100,
+    "image": "https://lemonsandzest.com/wp-content/uploads/2021/01/Mocha-Frappuccino-20-500x500.jpg"
+  },
+  {
+    "id": 8,
+    "name": "White Choco Frapp",
+    "categories": "Matters Frappuccino",
+    "price": 110,
+    "image": "https://coffeeatthree.com/wp-content/uploads/starbucks-white-chocolate-frappuccino-recipe1-500x500.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Java Chip Frapp",
+    "categories": "Matters Frappuccino",
+    "price": 125,
+    "image": "https://coffeeaffection.com/wp-content/uploads/2021/03/java-chip-frappuccino-500x500.jpg"
+  },
+  {
+    "id": 10,
+    "name": "CC Extreme Frapp",
+    "categories": "Matters Frappuccino",
+    "price": 125,
+    "image": "https://i.pinimg.com/564x/4a/63/9a/4a639a215eadda3fffe888d7b79305f1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Matters Iced",
+    "categories": "Matters Cold Coffee",
+    "price": 75,
+    "image": "https://www.thecookierookie.com/wp-content/uploads/2021/05/featured-iced-espresso-recipe-500x500.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Vanilla Iced",
+    "categories": "Matters Cold Coffee",
+    "price": 80,
+    "image": "https://celebratingsweets.com/wp-content/uploads/2017/04/Vanilla-Cold-Brew-Coffee-3-500x500.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Iced Latte",
+    "categories": "Matters Cold Coffee",
+    "price": 80,
+    "image": "https://valentinascorner.com/wp-content/uploads/2022/02/Iced-Caramel-Latte-500x500.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Iced Cinnamon",
+    "categories": "Matters Cold Coffee",
+    "price": 90,
+    "image": "https://onesweetappetite.com/wp-content/uploads/2022/06/Cinnamon-Dolce-Latte-8-500x500.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Chocolate",
+    "categories": "Matters Milktea",
+    "price": 90,
+    "image": "https://myveganminimalist.com/wp-content/uploads/2022/02/Chocolate-Bubble-Milk-Tea-13-500x500.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Thai Bubble",
+    "categories": "Matters Milktea",
+    "price": 100,
+    "image": "https://sugaryums.co.uk/wp-content/uploads/2022/03/Thai-Milk-Tea-SugarYums-16-500x500.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Oreo Milktea",
+    "categories": "Matters Milktea",
+    "price": 100,
+    "image": "https://myveganminimalist.com/wp-content/uploads/2022/05/Oreo-Bubble-Milk-Tea-Boba-22-500x500.jpg"
+  }
+]
